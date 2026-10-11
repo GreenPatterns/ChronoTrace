@@ -19,6 +19,7 @@ paper/results/revision/_superseded/
 # regenerated locally.
 paper/*
 !paper/ChronoTrace.pdf
+!paper/ChronoTrace_changes.pdf
 !paper/results/
 *.tex
 *.cls

@@ -23,7 +23,7 @@ This repository contains everything behind the paper:
 - the Python code of the benchmark and of every experiment;
 - every per-target result record (4,000+ JSON files) and the run logs;
 - the scripts that turn those records into every number, table and figure of the paper;
-- the paper itself, as a PDF ([`paper/ChronoTrace.pdf`](paper/ChronoTrace.pdf)); the manuscript sources are not distributed;
+- the paper itself, as a PDF ([`paper/ChronoTrace.pdf`](paper/ChronoTrace.pdf)), and the same paper with every change since its previous version marked ([`paper/ChronoTrace_changes.pdf`](paper/ChronoTrace_changes.pdf); additions underlined in blue, deletions struck through in red); the manuscript sources are not distributed;
 - a data-preparation script that rebuilds the exact input files from the public datasets, verified by checksum.
 
 ---
@@ -60,6 +60,7 @@ This repository contains everything behind the paper:
 │   └── edg60000-provenance.json  provenance of the dated Epinions build
 ├── paper/
 │   ├── ChronoTrace.pdf           the paper
+│   ├── ChronoTrace_changes.pdf   the paper with changes since its previous version marked
 │   └── results/revision/         every result record, summary and log (see "Result records")
 └── tests/                        pytest suite
 ```
