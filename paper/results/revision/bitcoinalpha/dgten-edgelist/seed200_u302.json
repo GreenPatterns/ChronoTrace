@@ -1,0 +1,59 @@
+{
+ "dataset": "bitcoinalpha",
+ "seed": 200,
+ "user": 302,
+ "embedding_seed": 42,
+ "epochs": 50,
+ "dgten_sign_auc": 0.7670536362046518,
+ "results": {
+  "dgten": {
+   "auc": 0.7973472638325306,
+   "ap": 0.0262449034264374,
+   "precision@5": 0.0,
+   "precision@10": 0.0,
+   "precision@20": 0.05,
+   "precision@50": 0.04,
+   "success@5": 0.0,
+   "success@10": 0.0,
+   "best_pos_rank": 18.0,
+   "mean_pos_rank": 770.9285714285714,
+   "recall@50": 0.14285714285714285,
+   "recall@100": 0.21428571428571427,
+   "recall@500": 0.6428571428571429,
+   "mcc@degree": -0.0037164852667905496
+  },
+  "full_nonoracle_dgten": {
+   "auc": 0.8845234934961508,
+   "ap": 0.046835161678180776,
+   "precision@5": 0.0,
+   "precision@10": 0.1,
+   "precision@20": 0.05,
+   "precision@50": 0.08,
+   "success@5": 0.0,
+   "success@10": 1.0,
+   "best_pos_rank": 7.0,
+   "mean_pos_rank": 442.5,
+   "recall@50": 0.2857142857142857,
+   "recall@100": 0.2857142857142857,
+   "recall@500": 0.7142857142857143,
+   "mcc@degree": 0.06797754939512306
+  },
+  "chronotrace_dgten": {
+   "auc": 0.9281542720618908,
+   "ap": 0.10516784446628129,
+   "precision@5": 0.2,
+   "precision@10": 0.1,
+   "precision@20": 0.05,
+   "precision@50": 0.04,
+   "success@5": 1.0,
+   "success@10": 1.0,
+   "best_pos_rank": 1.0,
+   "mean_pos_rank": 278.14285714285717,
+   "recall@50": 0.14285714285714285,
+   "recall@100": 0.2857142857142857,
+   "recall@500": 0.7142857142857143,
+   "mcc@degree": 0.06797754939512306
+  }
+ },
+ "elapsed_sec": 5.050844192504883
+}

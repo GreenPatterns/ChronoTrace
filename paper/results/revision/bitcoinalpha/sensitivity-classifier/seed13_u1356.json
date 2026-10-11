@@ -1,0 +1,14 @@
+{
+ "dataset": "bitcoinalpha",
+ "seed": 13,
+ "user": 1356,
+ "results": {
+  "lr_degree": 0.9874746405574667,
+  "rf_degree": 0.9807709270530124,
+  "lr_release_all": 0.986416159477816,
+  "rf_release_all": 0.9343741730616566,
+  "lr_window_all": 0.9981476581106112,
+  "rf_window_all": 0.988621328393755
+ },
+ "elapsed_sec": 5.749873638153076
+}

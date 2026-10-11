@@ -1,0 +1,14 @@
+{
+ "dataset": "bitcoinotc",
+ "seed": 200,
+ "user": 3465,
+ "results": {
+  "lr_degree": 0.9244662150574515,
+  "rf_degree": 0.7449944263419653,
+  "lr_release_all": 0.9239017035385583,
+  "rf_release_all": 0.8480856628365632,
+  "lr_window_all": 0.9203931572629052,
+  "rf_window_all": 0.9048976733550562
+ },
+ "elapsed_sec": 7.702507495880127
+}

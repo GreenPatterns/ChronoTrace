@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datasets: downloaded and prepared locally (see data/README.md), not redistributed
+data/*.csv
+data/*-rating.txt
+data/raw/
+
+# Experiment caches written by the run scripts (feature matrices and per-candidate scores, ~3.7 GB);
+# the per-target JSON records next to them are kept. The GNN embedding caches in dgten/ are kept.
+paper/results/revision/**/tasks/
+paper/results/revision/**/units/*.npz
+paper/results/revision/_superseded/
+
+# paper/: only the compiled paper and the result records are tracked. Manuscript sources are not
+# distributed, and the tables (paper/generated/) and figures (paper/images/) that the scripts write are
+# regenerated locally.
+paper/*
+!paper/ChronoTrace.pdf
+!paper/results/
+*.tex
+*.cls
+*.sty
+*.bst
+*.bib

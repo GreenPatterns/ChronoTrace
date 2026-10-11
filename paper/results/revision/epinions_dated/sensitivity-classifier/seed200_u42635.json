@@ -1,0 +1,14 @@
+{
+ "dataset": "epinions_dated",
+ "seed": 200,
+ "user": 42635,
+ "results": {
+  "lr_degree": 0.9852916920215339,
+  "rf_degree": 0.9288929932969962,
+  "lr_release_all": 0.9822831215328287,
+  "rf_release_all": 0.9769905162701368,
+  "lr_window_all": 0.9908228582398115,
+  "rf_window_all": 0.9860828570656442
+ },
+ "elapsed_sec": 131.37017917633057
+}

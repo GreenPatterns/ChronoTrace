@@ -1,0 +1,15 @@
+# Core pipeline (features, adversaries, calibration, defenses, analysis, tables, figures)
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.6.1
+pandas==2.3.3
+matplotlib==3.10.0
+pytest==9.0.2
+# Optional: the DGTEN-variant GNN baseline (Appendix D.8); needs a CUDA-capable PyTorch build
+torch==2.4.0
+torch-scatter==2.1.2
+einops==0.8.1
+easydict
+networkx==3.4.2
+texttable==1.7.0
+tqdm==4.67.1

@@ -1,0 +1,263 @@
+{
+ "dataset": "bitcoinotc",
+ "seed": 7,
+ "user": 718,
+ "chronoscrub": {
+  "deletion_only": {
+   "attack": {
+    "degree": {
+     "auc": 0.7954390742001362,
+     "ap": 0.008270156749346651,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "full_nonoracle": {
+     "auc": 0.8154782164737917,
+     "ap": 0.004567870660775446,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "chronotrace": {
+     "auc": 0.9260125936010892,
+     "ap": 0.01037510653551347,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.75
+    }
+   },
+   "retention": 1.0,
+   "utility_sign_auc": 0.6253969693131928,
+   "utility_sign_auc_v1": 0.625924662660035
+  },
+  "temporal_scrub": {
+   "attack": {
+    "degree": {
+     "auc": 0.6682001027045532,
+     "ap": 0.007014950109211368,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "full_nonoracle": {
+     "auc": 0.7432814104758645,
+     "ap": 0.004483416182684645,
+     "precision@5": 0.0,
+     "recall@100": 0.0,
+     "recall@500": 0.25
+    },
+    "chronotrace": {
+     "auc": 0.8522766175967135,
+     "ap": 0.011047828923462809,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.75
+    }
+   },
+   "retention": 0.9652943656034846,
+   "utility_sign_auc": 0.6389927464556545,
+   "utility_sign_auc_v1": 0.6402145447694408
+  },
+  "joint_0.25": {
+   "attack": {
+    "degree": {
+     "auc": 0.7497232158065066,
+     "ap": 0.007631083613010874,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "full_nonoracle": {
+     "auc": 0.6889584397887923,
+     "ap": 0.003499780515321101,
+     "precision@5": 0.0,
+     "recall@100": 0.0,
+     "recall@500": 0.25
+    },
+    "chronotrace": {
+     "auc": 0.8885837165729858,
+     "ap": 0.009954311389570971,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.75
+    }
+   },
+   "retention": 0.9896585640016861,
+   "utility_sign_auc": 0.6469311984080189,
+   "utility_sign_auc_v1": 0.63991294338071
+  },
+  "joint_0.50": {
+   "attack": {
+    "degree": {
+     "auc": 0.7391091219096334,
+     "ap": 0.0070397962623382415,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "full_nonoracle": {
+     "auc": 0.6957161125319693,
+     "ap": 0.004080677324898959,
+     "precision@5": 0.0,
+     "recall@100": 0.0,
+     "recall@500": 0.25
+    },
+    "chronotrace": {
+     "auc": 0.8911125319693095,
+     "ap": 0.010322803594579946,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.75
+    }
+   },
+   "retention": 0.9800196712097794,
+   "utility_sign_auc": 0.6147029549244474,
+   "utility_sign_auc_v1": 0.6153573296488736
+  },
+  "joint_0.75": {
+   "attack": {
+    "degree": {
+     "auc": 0.682035519125683,
+     "ap": 0.006705743265639939,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "full_nonoracle": {
+     "auc": 0.7367443647540983,
+     "ap": 0.005087106089663238,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "chronotrace": {
+     "auc": 0.8732069672131147,
+     "ap": 0.01106697733684503,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.75
+    }
+   },
+   "retention": 0.9712519319938177,
+   "utility_sign_auc": 0.6578061347958644,
+   "utility_sign_auc_v1": 0.6571954924383923
+  }
+ },
+ "rr": {
+  "0.5": {
+   "attack": {
+    "degree": {
+     "auc": 0.7395655877342419,
+     "ap": 0.007273299043092136,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "full_nonoracle": {
+     "auc": 0.7886617452205187,
+     "ap": 0.004217537610439962,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "chronotrace": {
+     "auc": 0.8975487412455044,
+     "ap": 0.007376763360935044,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.75
+    }
+   },
+   "retention": 0.6261627090066039,
+   "utility_sign_auc": 0.6454770687847354,
+   "utility_sign_auc_v1": 0.6457795399452181
+  },
+  "1.0": {
+   "attack": {
+    "degree": {
+     "auc": 0.7662334721970657,
+     "ap": 0.00820135456299373,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "full_nonoracle": {
+     "auc": 0.8205940952725955,
+     "ap": 0.006026778407181369,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "chronotrace": {
+     "auc": 0.9170440137656222,
+     "ap": 0.010626581411600739,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.75
+    }
+   },
+   "retention": 0.7348039904454124,
+   "utility_sign_auc": 0.6142533488079693,
+   "utility_sign_auc_v1": 0.6132213840127666
+  },
+  "2.0": {
+   "attack": {
+    "degree": {
+     "auc": 0.7999825996171916,
+     "ap": 0.008276344422442086,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "full_nonoracle": {
+     "auc": 0.8197755350617714,
+     "ap": 0.005215222860093867,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "chronotrace": {
+     "auc": 0.9293979467548287,
+     "ap": 0.012382751085693455,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.75
+    }
+   },
+   "retention": 0.8840522692145567,
+   "utility_sign_auc": 0.6385256114101444,
+   "utility_sign_auc_v1": 0.6287948155611095
+  },
+  "4.0": {
+   "attack": {
+    "degree": {
+     "auc": 0.7975225993518676,
+     "ap": 0.00829085195202818,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "full_nonoracle": {
+     "auc": 0.8279038035135596,
+     "ap": 0.005298678772697643,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.25
+    },
+    "chronotrace": {
+     "auc": 0.9284495991813064,
+     "ap": 0.011530426193111629,
+     "precision@5": 0.0,
+     "recall@100": 0.25,
+     "recall@500": 0.75
+    }
+   },
+   "retention": 0.9813966558943376,
+   "utility_sign_auc": 0.6222435555555554,
+   "utility_sign_auc_v1": 0.622968888888889
+  }
+ },
+ "elapsed_sec": 64.65499019622803,
+ "utility_version": 2
+}
